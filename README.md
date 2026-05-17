@@ -1,4 +1,4 @@
-# Private Tools Ecosystem
+# ✨ Private Tools Ecosystem
 
 ## Overview
 
