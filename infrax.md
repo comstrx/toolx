@@ -1,193 +1,60 @@
-# infrax
+# ✨ Infrax
 
-## What is infrax?
-
-**infrax** is an internal infrastructure automation tool.
-
-It helps the company prepare, secure, deploy, and manage servers faster and with fewer mistakes.
-
-In simple words:
-
-> infrax turns server setup and deployment work into a repeatable system.
+> **The company's private infrastructure engine — from empty server to live production in minutes.**
 
 ---
 
-## Why does the company need infrax?
+## The Problem
 
-Most companies depend on manual server work:
+Every project needs the same infrastructure work: prepare the server, install software, configure Nginx, enable SSL, set up databases, harden security, deploy the app, start workers.
 
-- Preparing a new server
-- Installing required software
-- Setting up websites
-- Configuring domains
-- Enabling SSL
-- Managing firewalls
-- Setting up databases
-- Deploying projects
-- Running queues and background jobs
-- Fixing repeated production issues
+Done manually, this takes hours or days. Mistakes leak into production. Only one person on the team usually knows how it all works.
 
-When this is done manually, it can be slow, risky, and hard to repeat.
-
-infrax solves this by turning infrastructure work into organized automation.
+When that person leaves, the company has a problem.
 
 ---
 
-## What does infrax do?
+## The Solution
 
-infrax helps automate technical operations such as:
+infrax provides ready production blueprints for every type of project:
 
-- Server preparation
-- Website deployment
-- Domain and SSL setup
-- Firewall configuration
-- Security hardening
-- Database setup
-- Redis setup
-- Nginx setup
-- Docker setup
-- K8s setup
-- App deployment
-- GitHub deployment
-- Storage linking
-- Queue workers
-- Cron jobs
-- Backup preparation
-- Production checks
+- **Monolith** — single-server setups
+- **Dockerized** — containerized apps
+- **Kubernetes** — scalable cloud deployments
+- **Microservices** — distributed systems
 
-The goal is to make production setup faster, safer, and more consistent.
+The company picks the blueprint, runs the automation, and gets a hardened, production-ready environment.
 
 ---
 
-## How will infrax help the company?
+## Real Example
 
-infrax helps the company by:
-
-- Reducing deployment mistakes
-- Saving server setup time
-- Making production environments more reliable
-- Standardizing server configuration
-- Making projects easier to move between servers
-- Reducing dependency on one person who knows the server
-- Making client deployments faster
-- Improving security and operational control
+| Task | Before | After |
+|------|--------|-------|
+| New production server | 4–8 hours of manual setup | Automated in minutes |
+| Move project to new server | 1–2 days, error-prone | Repeatable, predictable |
+| Onboarding to deployment | "Ask the senior" | Run the blueprint |
 
 ---
 
-## Simple Example
+## Business Impact
 
-Without infrax:
-
-A developer manually prepares a server, configures Nginx, installs packages, links storage, sets permissions, configures SSL, starts workers, and tests production.
-
-This can take hours or days and may include mistakes.
-
-With infrax:
-
-The company uses a controlled automation workflow to prepare and deploy the project.
-
-Result:
-
-> Faster server setup, fewer mistakes, and more reliable production delivery.
+- **Faster client delivery** — go from contract to live in hours, not weeks
+- **Lower production risk** — same setup, every time, no surprises
+- **No single point of failure** — infrastructure knowledge lives in the tool
+- **Professional delivery** — clients see consistent, production-grade quality
+- **Scales with the company** — same engine works for 1 server or 100
 
 ---
 
-## Business Value
+## Timeline
 
-infrax gives the company a reusable infrastructure system.
-
-The company benefits from:
-
-- Faster client delivery
-- Lower deployment risk
-- Better production stability
-- Cleaner server management
-- Faster recovery and redeployment
-- More professional delivery process
-- Less time wasted on repeated infrastructure work
-- Better confidence when launching real projects
+| Phase | Duration | Outcome |
+|-------|----------|---------|
+| Internal MVP | 6–10 weeks | Monolith blueprint, used internally |
+| Company-ready | 4–6 months | Docker + K8s blueprints, hardened security |
+| Sellable to others | 8–10 months | Full DevOps service offering |
 
 ---
 
-## Target Use Inside the Company
-
-infrax can be used for:
-
-- Hosting company websites
-- Deploying client projects
-- Preparing App servers
-- Preparing SaaS environments
-- Managing VPS/AWS servers
-- Securing production servers
-- Standardizing deployment workflows
-- Preparing repeatable infrastructure blueprints
-
----
-
-## Why is this valuable?
-
-Every software company eventually suffers from infrastructure problems:
-
-- “The project works locally but not on the server.”
-- “Only one developer knows how deployment works.”
-- “Every server is configured differently.”
-- “Deployment takes too long.”
-- “Production errors happen because of manual steps.”
-
-infrax reduces these problems by creating one organized infrastructure process.
-
----
-
-## Future Commercial Value
-
-After proving infrax inside the company, it can become a service offered to other companies.
-
-The company can sell:
-
-- Production server setup
-- App deployment automation
-- VPS/AWS setup
-- Server security hardening
-- Deployment workflow setup
-- Infrastructure maintenance packages
-- DevOps automation services
-
-The selling point:
-
-> We help companies launch and manage production servers faster, safer, and more professionally.
-
----
-
-## Estimated Time
-
-First usable internal version:
-
-**4 to 8 weeks**
-
-Strong company-ready version:
-
-**2 to 4 months**
-
-Production service-ready version:
-
-**4 to 8 months**
-
-Advanced infrastructure ecosystem:
-
-**8 to 12+ months**
-
----
-
-## Final Summary
-
-**infrax** is an infrastructure automation system for software companies.
-
-It helps prepare servers, secure production environments, deploy projects, and reduce manual infrastructure mistakes.
-
-The main goal is:
-
-> Faster deployment, safer servers, and repeatable production setup.
-
-In simple words:
-
-> infrax is the company’s private infrastructure engine.
+> **infrax turns server setup from risky craft into a repeatable company asset.**

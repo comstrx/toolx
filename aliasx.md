@@ -1,117 +1,57 @@
-# aliasx
+# ✨ aliasx
 
-## What is aliasx?
-
-**aliasx** is a simple internal tool that helps the company finish repeated technical work faster.
-
-Instead of doing the same manual steps every time, aliasx turns those steps into short ready commands.
-
-It is like giving the company a private “shortcut system” for technical operations.
+> **A private shortcut system that turns the company's daily technical work into one-word commands.**
 
 ---
 
-## Why does the company need it?
+## The Problem
 
-In most software companies, developers repeat the same tasks every day:
+Developers waste hours every week repeating the same commands — preparing projects, pushing code, managing GitHub, copying environment files, publishing releases.
 
-- Preparing projects
-- Updating websites
-- Publishing new versions
-- Managing GitHub work
-- Handling environment files
-- Moving between projects
-- Running checks before delivery
-- Repeating deployment steps
+The same work, done manually, every day, by every developer.
 
-These repeated tasks waste time and can cause mistakes.
-
-aliasx reduces this waste.
+The cost: lost time, small mistakes, and complete dependency on whoever "knows the commands."
 
 ---
 
-## How will aliasx help the company?
+## The Solution
 
-aliasx can help the company by:
+aliasx replaces long manual commands with short company commands.
 
-- Saving developer time
-- Reducing manual errors
-- Making work faster and more organized
-- Making repeated operations easier
-- Helping new developers follow the same workflow
-- Reducing dependency on one person who knows all the steps
-- Making updates and releases more controlled
+What used to take 5 steps now takes 1 word.
+
+The company gets one standard way to do daily technical work — installed once, used everywhere.
 
 ---
 
-## Simple Example
+## Real Example
 
-Without aliasx:
-
-A developer may need to remember and run several commands to update a project or publish a release.
-
-With aliasx:
-
-The same workflow can be done with one simple command.
-
-Result:
-
-> Less time, fewer mistakes, faster delivery.
+| Task | Before | After |
+|------|--------|-------|
+| Publish a release | 6 manual commands, 3 minutes | `release` |
+| Sync a project | Remember 4 git commands | `sync` |
+| New developer setup | A full day of manual config | One command |
 
 ---
 
-## Business Value
+## Business Impact
 
-aliasx is not just a developer shortcut.
-
-It helps the company build an internal system for speed and consistency.
-
-The company benefits from:
-
-- Faster project delivery
-- Cleaner technical workflow
-- Better team productivity
-- Lower risk during updates
-- Easier future scaling
+- **Faster delivery** — daily technical tasks finish in seconds instead of minutes
+- **Fewer mistakes** — no more wrong commands in production
+- **Faster onboarding** — new developers productive on day one
+- **Less dependency** — workflows live in the tool, not in one person's head
+- **Cleaner operations** — every developer works the same way
 
 ---
 
-## Target Use Inside the Company
+## Timeline
 
-aliasx can first be used inside the company for:
-
-- Current websites
-- Internal projects
-- Deployment workflows
-- GitHub management
-- Developer onboarding
-- Repeated technical operations
-
-After it proves value internally, it can later become a service offered to other companies that suffer from the same repeated technical problems.
+| Phase | Duration | Outcome |
+|-------|----------|---------|
+| Internal MVP | 2–3 weeks | Core commands working for the team |
+| Company-ready | 6–8 weeks | Stable, documented, full daily coverage |
+| Sellable to others | ~3 months | Packaged service for external companies |
 
 ---
 
-## Estimated Time
-
-First usable version inside the company:
-
-**2 to 4 weeks**
-
-Improved company-ready version:
-
-**4 to 8 weeks**
-
-Service-ready version for other companies:
-
-**8 to 12 weeks**
-
----
-
-## Final Summary
-
-**aliasx** is a private productivity tool for the company.
-
-It turns repeated technical work into simple commands.
-
-The main goal is:
-
-> Save time, reduce mistakes, organize the workflow, and help the company deliver faster.
+> **aliasx is the company's private speed layer for everyday development.**
