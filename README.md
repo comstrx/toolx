@@ -89,3 +89,7 @@ Each step delivers value before the next one starts.
 > **Code faster. Automate deeper. Deploy cleaner. Scale stronger.**
 >
 > **toolx is the engineering operating system the company owns.**
+
+## License
+
+See [LICENSE](./LICENSE). Commercial usage outside the license terms requires written permission.
