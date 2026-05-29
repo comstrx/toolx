@@ -1,6 +1,6 @@
 # ✨ The Comstrx Engineering Toolchain
 
-`toolx` is the central home for the six core tools built by comstrx to turn repeated engineering work into reusable execution power.
+`toolx` the central home for the six core tools built by comstrx to turn repeated engineering work into reusable execution power.
 
 The strongest engineer is not the one who writes code faster.
 
