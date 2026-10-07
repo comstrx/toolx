@@ -658,12 +658,8 @@ dramatically faster
 
 ---
 
-# License
+## License
 
-<code>toolx</code> is dual-licensed under either
-[MIT](https://github.com/comstrx/toolx/blob/main/LICENSE-MIT) or
-[Apache-2.0](https://github.com/comstrx/toolx/blob/main/LICENSE-APACHE), at your option.
+Copyright © 2026 Abdulrahman Yasser (comstrx).
 
-Unless you explicitly state otherwise, any contribution intentionally submitted
-for inclusion in this work by you, as defined in the Apache-2.0 license, shall be
-dual-licensed as above, without any additional terms or conditions.
+Licensed under the [Apache License, Version 2.0](./LICENSE).
