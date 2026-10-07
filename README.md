@@ -1,1079 +1,669 @@
-# ✨ The Comstrx Engineering Toolchain
+# ✨ ToolX - The Comstrx Engineering Toolchain
 
-`toolx` the central home for the six core tools built by comstrx to turn repeated engineering work into reusable execution power.
+> Build one enterprise system the hard way.  
+> Extract the engineering.  
+> Never rebuild it the same way again.
 
-The strongest engineer is not the one who writes code faster.
+**ToolX** is a focused engineering ecosystem for building production-grade software faster without sacrificing architecture, performance, maintainability, security, or control.
 
-The strongest engineer builds the tools that make every future project faster, cleaner, safer, and harder to break.
+It contains exactly five tools:
 
-Modern software work is fragmented by default:
-
-```txt
-backend     -> one stack
-frontend    -> another stack
-infra       -> scattered scripts and dashboards
-ci/cd       -> YAML archaeology
-admin       -> rebuilt screen by screen
-deployment  -> tribal knowledge
+```text
+RustX
+InfraX
+SkillX
+WebX
+MobileX
 ```
 
-The secret is not to let AI own production.
+Each tool is:
 
-The secret is to use AI to accelerate the creation of six complex engineering tools, then use those tools as a disciplined engineering weapon to build secure, stable, FAANG-grade production systems.
+- self-contained;
+- independently usable;
+- opinionated;
+- production-grade;
+- focused on one responsibility;
+- free from sibling ToolX dependencies.
 
-AI is the accelerator.
+ToolX is not designed in isolation.
 
-The tools are the weapon.
-
-Production stays controlled by engineering.
-
-When a brilliant engineer uses these six tools with discipline, complex SaaS systems that normally take months can be designed, built, deployed, and operated in days with FAANG-grade engineering standards.
-
-This is where AI becomes truly powerful: not by replacing engineering, but by accelerating the creation of complex tools that turn one engineer into a production force multiplier.
-
-This toolchain exists to compress that chaos into one connected execution layer.
-
-```txt
-rustx   -> the Rust foundation stdlib for lifecycle programming
-wasmx   -> the WebAssembly execution layer built on rustx
-webx    -> the Hyper-powered web engine built on rustx
-infrax  -> the infrastructure control layer built on rustx
-gunx    -> the project command center built on rustx
-panelx  -> the admin panel compiler built on Next.js + Radix UI + shadcn/ui + Redux
-```
-
-`comstrx` is the builder identity.
-
-Built for developers, platform engineers, backend teams, infrastructure teams, and product builders who want one disciplined way to build, run, deploy, and operate serious software.
+It is **proven inside SaaSX**, hardened against real requirements, then extracted as reusable engineering infrastructure.
 
 ---
 
-## The Core Idea
+## The Vision
 
-Do not rebuild the same engineering workflows forever.
+Modern software repeatedly rebuilds the same foundations:
 
-Build the foundation once.
-
-Then use it to generate stronger backends, stronger infrastructure, stronger admin panels, stronger deployments, and stronger daily developer workflows.
-
-The goal is to turn complex engineering work into simple, repeatable command surfaces.
-
-Infrastructure should no longer feel like a maze of scattered YAML files, dashboards, scripts, providers, spec files, and hidden tool complexity.
-
-Project development should no longer depend on memorizing a different lifecycle for every language, framework, package manager, and deployment stack.
-
-With `infrax`, infrastructure becomes a small set of clear administrative commands.
-
-With `gunx`, project development becomes one unified command vocabulary across 30+ languages, frameworks, package managers, and runtimes.
-
-```txt
-write less glue
-repeat fewer rituals
-hide tool chaos
-standardize commands
-ship more consistently
-control more of the lifecycle
+```text
+backend
+web
+mobile
+infrastructure
+engineering knowledge
 ```
 
-This is where the chaos starts to end.
+ToolX turns those repeated foundations into reusable systems.
 
-No more memorizing 1,000+ commands, jumping between 1,000+ tools, or drowning in scattered `.yml`, `.toml`, `.json`, scripts, dashboards, package managers, and infrastructure rituals.
-
-No more pushing AI-generated application code blindly into production.
-
-With `gunx` and `infrax`, the developer writes intent, keeps control, observes the system, and executes through one unified command layer.
-
-`gunx` becomes the command brain for project lifecycle.
-
-`infrax` becomes the command brain for infrastructure and deployment.
-
-Together, they turn complex project management and infrastructure operations into clear, repeatable, observable commands capable of producing FAANG-grade engineering workflows.
-
-This is not a collection of random tools.
-
-It is one engineering toolchain with one direction:
-
-```txt
-Build tools.
-Control systems.
-Ship serious software.
+```text
+SaaSX builds the evidence.
+ToolX captures the engineering.
+SkillX captures the knowledge.
 ```
+
+The long-term goal:
+
+```text
+ToolX + SkillX + powerful AI agents
+                ↓
+build the next enterprise SaaS dramatically faster
+```
+
+AI accelerates implementation.
+
+ToolX provides the engineering system.
+
+Human judgment remains in control.
 
 ---
 
-## Toolchain Map
+# The Five Tools
 
-```txt
-rustx
-├── wasmx
-├── webx
-├── infrax
-└── gunx
+## RustX
 
-panelx
-├── Next.js
-├── React
-├── TypeScript
-├── Radix UI
-├── shadcn/ui
-├── Redux
-└── wasmx where raw execution power is needed
-```
+> The coherent Rust foundation for backend, systems, and infrastructure software.
 
-`rustx` is the native foundation.
+**RustX** is a Rust workspace designed as an extended standard/application library.
 
-`wasmx`, `webx`, `infrax`, and `gunx` are built on top of it.
+It provides consistent primitives and higher-level building blocks for areas such as:
 
-`panelx` belongs to the same toolchain, but its main runtime is the modern frontend/admin stack. It can use `wasmx` for heavy modules, sandboxed plugins, validation engines, data processing, and secure executable workflows.
-
----
-
-# rustx
-
-> The Rust foundation stdlib for lifecycle programming.
-
-`rustx` is the base layer of the toolchain.
-
-It is a Rust standard-library-style foundation for building serious frameworks, CLIs, automation systems, infrastructure tools, web engines, runtimes, and developer platforms.
-
-It is not a helper crate.
-
-It is the engineering core that gives the whole toolchain shared primitives, shared performance patterns, shared runtime behavior, and one disciplined foundation.
-
-## What it does
-
-`rustx` provides the core requirements needed across the full software lifecycle:
-
-```txt
-filesystem
-paths
-strings
-buffers
-processes
-configuration
+```text
 errors
-async workflows
-networking
-storage
+memory
+allocation
+buffers
+SIMD
+I/O
+logging
 parsing
 validation
-data structures
-macros
-CLI primitives
-runtime utilities
-automation
-workspace discipline
-system managers
-services
+collections
+process
+system
+database
+cache
+networking
+HTTP
+web
 ```
 
-It also provides high-level typed primitives for building cleaner systems:
+RustX is not a random collection of crates.
 
-```txt
-List
-Dict
-Int
-UInt
-Float
-Char
-String
-Json
-Func
+Every crate/module follows the same engineering language:
+
+```text
+one naming style
+one error model
+one lifecycle
+one configuration philosophy
+one dependency direction
+one quality bar
 ```
 
-The goal is to make Rust feel like a complete engineering platform, not just a language plus scattered crates.
+Dependencies flow one way only.
 
-## Performance direction
+Performance-sensitive techniques such as SIMD, arenas, preallocation, zero-copy, zero-allocation, cache-aware layouts, and specialized data structures are broadly evaluated and kept only when measurement justifies them.
 
-`rustx` is designed with performance as part of the architecture, not as an afterthought.
-
-Where it makes sense, it can use:
-
-```txt
-SIMD
-arena allocation
-buffer preallocation
-zero-copy APIs
-zero-cost abstractions
-cache-conscious data flow
-predictable memory behavior
-async-first execution
+```text
+optimization eligibility = universal
+optimization adoption    = evidence-based
 ```
 
-The point is not to use advanced techniques for decoration.
-
-The point is to make the foundation fast by default, careful with memory, and ready for high-throughput tools, servers, compilers, runtimes, and automation systems.
-
-## How it is used
-
-Other tools use `rustx` as the shared engine:
-
-```txt
-wasmx   uses rustx for portable execution infrastructure
-webx    uses rustx for web/runtime primitives
-infrax  uses rustx for deployment and system automation
-gunx    uses rustx for lifecycle and project control
-```
-
-Instead of every tool reinventing filesystem logic, process handling, config loading, parsing, validation, networking, errors, runtime control, and data primitives, `rustx` provides one consistent base.
-
-## The force
-
-`rustx` turns Rust from raw systems power into a complete engineering foundation.
-
-```txt
-Rust-level performance.
-Stdlib-level consistency.
-Runtime-level control.
-Framework-level usability.
-Production-level discipline.
-```
-
-It is the layer that makes the rest of the toolchain possible.
+RustX is born primarily from `saasx/api/core`.
 
 ---
 
-# wasmx
+## InfraX
 
-> The WebAssembly execution layer built on rustx.
+> Infrastructure as a programmable operational system.
 
-`wasmx` is the portable execution layer of the toolchain.
+**InfraX** is a self-contained infrastructure engine written in Rust.
 
-It exists to make selected `rustx` power available outside native Rust environments, through WebAssembly.
+It owns reusable infrastructure concerns such as:
 
-The goal is simple:
-
-```txt
-write the core once in Rust
-compile it to WebAssembly
-run it across runtimes
-reuse it from other ecosystems
-```
-
-## What it does
-
-`wasmx` targets:
-
-```txt
-sandboxed plugins
-portable modules
-client-side heavy logic
-validation engines
-rule engines
-data processing
-secure executable workflows
-cross-runtime execution
-Rust-powered modules for non-Rust environments
-```
-
-It can become the bridge that exposes parts of `rustx` to:
-
-```txt
-Python
-Node.js
-Bun
-PHP
-browsers
-edge runtimes
-plugin systems
-admin panels
-automation engines
-```
-
-## How it is used
-
-A tool can move critical logic into `wasmx` when normal scripting is not enough.
-
-```txt
-run logic safely
-ship portable modules
-execute fast code in controlled environments
-reuse Rust-powered logic outside native backends
-expose rustx primitives to other languages and runtimes
-```
-
-Instead of rewriting the same core logic for Python, Node, Bun, PHP, and the browser, `wasmx` can provide one Rust-powered execution layer that travels across environments.
-
-```txt
-complex validation
-large table processing
-workflow rules
-plugin execution
-secure business logic
-performance-critical UI modules
-client-side data processing
-```
-
-## The force
-
-`wasmx` gives the toolchain a second execution mode:
-
-```txt
-native when you need maximum control
-wasm when you need portable controlled power
-```
-
-Its real strength is portability:
-
-```txt
-rustx power
-compiled to wasm
-used from Python, Node, Bun, PHP, browsers, and beyond
-```
-
-`wasmx` turns `rustx` from a native Rust foundation into a cross-runtime engineering layer.
-
----
-
-# webx
-
-> The Rust web engine built on rustx and powered by Hyper.
-
-`webx` is the backend/web layer of the toolchain.
-
-It uses `rustx` as its foundation and `Hyper` as the low-level HTTP engine, then adds the higher-level developer experience needed to build real production backends without drowning in boilerplate.
-
-It aims to make Rust backend development feel fast, expressive, and structured without sacrificing performance.
-
-## What it does
-
-`webx` targets:
-
-```txt
-APIs
-backend services
-monoliths
-microservices
-routing
-middleware
-controllers
-request validation
-authentication layers
-background jobs
-WebSockets
-production web apps
-```
-
-## How it is used
-
-A developer should be able to build a backend with high-level clarity while keeping Rust performance and Hyper-powered HTTP underneath.
-
-```txt
-define routes
-attach middleware
-validate requests
-write services
-handle HTTP
-ship APIs
-run production backends
-```
-
-## The force
-
-`webx` is designed around one promise:
-
-```txt
-Hyper-powered HTTP.
-Laravel-level DX.
-Python-like expressiveness.
-Rust-level performance.
-```
-
-Not Rust as punishment.
-
-Rust as a weapon.
-
----
-
-# infrax
-
-> Infrastructure control through one programmable spec file.
-
-`infrax` is the infrastructure control layer built on `rustx`.
-
-It turns infrastructure, deployment, observability, monitoring, backup, alerts, notifications, and CI/CD workflows into one consistent project-level interface.
-
-## The spec file
-
-`infrax` is driven by an infrastructure spec file in the project root:
-
-```txt
-Infra.lua
-infra.lua
-```
-
-That file becomes the single infrastructure entrypoint for the project.
-
-It can describe:
-
-```txt
-services
+```text
+providers
+resources
+dependency graphs
+state
+planning
+apply
+deployment
+health
+rollback
 environments
-servers
-domains
-secrets
-Docker workflows
-Kubernetes workflows
-IaC targets
-build steps
-deployment steps
-backup rules
-health checks
-rollback logic
-watch rules
-alert rules
-notification rules
-monitoring hooks
-observability wiring
-release environments
-AI-assisted infrastructure views
+secret references
+observability hooks
 ```
 
-`infrax` can use a hidden cache directory for internal state:
+Product-specific intent belongs in manifests and configuration, not in the engine.
 
-```txt
-.infrax
+For example:
+
+```text
+Infra.lua
+environment manifests
+.env contracts
+secret references
+provider configuration
 ```
 
-The cache can store resolved infrastructure metadata, generated plans, deployment state, environment data, graph data, monitoring metadata, alert state, backup state, and provider-specific execution details.
+InfraX may orchestrate strong ecosystem tools instead of reinventing them:
 
-## What it does
-
-Every serious project needs infrastructure operations.
-
-`infrax` turns those operations into one command vocabulary.
-
-For example, not limited to:
-
-```bash
-infrax deploy
-infrax rollback
-infrax backup
-infrax restore
-infrax watch
-infrax monitor
-infrax alert
-infrax notify
-infrax health
-infrax logs
-infrax status
-infrax plan
-infrax apply
-infrax destroy
-infrax scale
-infrax secrets
-infrax suggest
-infrax ai-view
-```
-
-Instead of every project inventing its own deployment ritual, `infrax` gives every project the same infrastructure surface.
-
-The model is simple:
-
-```txt
-write infra.lua
-run infrax deploy
-```
-
-Same idea across:
-
-```txt
-local machine
-server
-CI/CD
-Docker
-Kubernetes
-cloud workflows
-```
-
-## Ecosystem support
-
-`infrax` is designed to support 30+ languages, frameworks, runtimes, and project types.
-
-For example, not limited to:
-
-```txt
-Rust
-Go
-C
-C++
-.NET
-PHP
-Laravel
-Python
-Django
-Fiber
-Node.js
-Bun
-Express
-NestJS
-Next.js
-React
-Astro
-Vue
-Angular
-Nuxt
-Elixir
-Dart
-Flutter
-Java
-Bash
-Lua
-Docker
-Kubernetes
-monorepos
-microservices
-backend systems
-frontend apps
-infrastructure projects
-cloud-native systems
-```
-
-The goal is full lifecycle unification across applications, services, scripts, infrastructure projects, and cloud-native systems.
-
-## Under the hood
-
-`infrax` should not reinvent the infrastructure world.
-
-It can orchestrate proven tools behind one stable interface.
-
-For example, not limited to:
-
-```txt
-OpenTofu
-Terraform
-Ansible
-OpenTelemetry
-Prometheus
-Grafana
-Loki
+```text
+OpenTofu / Terraform
 Docker
 Kubernetes
 Helm
-Kustomize
 Argo CD
-CI/CD providers
-cloud CLIs
-package managers
-language toolchains
-backup providers
-notification providers
-monitoring providers
+Ansible
+Prometheus
+Grafana
+Loki
+OpenTelemetry
+cloud/provider CLIs
 secret managers
+CI/CD systems
 ```
 
-The developer should not need to remember every low-level command every time.
+InfraX is intentionally independent from RustX until using RustX becomes a proven production advantage.
 
-`infrax` hides the noise, keeps the power, and exposes one disciplined workflow.
+Conceptually:
 
-## Unified CI/CD
-
-Because `infrax` gives projects one deployment and infrastructure interface, CI/CD can become stable.
-
-A `.github` workflow can stay almost the same across many projects:
-
-```txt
-checkout
-setup toolchain
-run gunx gates
-run infrax deploy
-```
-
-The CI file stays fixed.
-
-The project behavior comes from `Infra.lua` or `infra.lua`.
-
-## The force
-
-`infrax` is the command brain for infrastructure.
-
-It turns infrastructure from scattered scripts, dashboards, YAML files, cloud rituals, monitoring setups, alert rules, backup flows, and provider-specific commands into one clear operational surface.
-
-```txt
-One spec file.
-One cache directory.
-One command layer.
-Many infrastructure tools.
-One infrastructure lifecycle.
+```text
+saasx/infra → InfraX
 ```
 
 ---
 
-# gunx
+## SkillX
 
-> The project command center built on rustx.
+> The engineering knowledge runtime for AI agents.
 
-`gunx` is the daily execution layer built on `rustx`.
+**SkillX** is not an AI agent.
 
-It controls the project lifecycle across languages, frameworks, package managers, build tools, test tools, formatters, linters, auditors, release flows, deployment hooks, and CI/CD gates.
+It is a lightweight Rust runtime that stores structured engineering knowledge as a graph and exposes relevant knowledge to external AI agents through MCP.
 
-## The spec file
+Conceptually:
 
-`gunx` is driven by a project spec file in the project root:
-
-```txt
-Gun.toml
-gun.toml
+```text
+knowledge
+   ↓
+structured graph
+   ↓
+Rust runtime
+   ↓
+MCP
+   ↓
+AI agent
 ```
 
-That file can describe:
+SkillX can contain knowledge about:
 
-```txt
-project metadata
-language/runtime targets
-tasks
-scripts
-dependencies
-task dependencies
-environments
-build rules
-check rules
-test rules
-gates
-audit options
-format options
-lint options
-release rules
-deployment hooks
-package-manager behavior
-```
-
-`gunx` can use a hidden cache directory for internal state:
-
-```txt
-.gun
-```
-
-The cache can store:
-
-```txt
-dependency graph
-task graph
-graph cache
-package-manager metadata
-toolchain metadata
-build metadata
-environment metadata
-execution state
-gate results
-```
-
-## What it does
-
-Every project needs a lifecycle.
-
-`gunx` turns that lifecycle into one command vocabulary.
-
-For example, not limited to:
-
-```bash
-gunx install
-gunx dev
-gunx run
-gunx start
-gunx serve
-gunx check
-gunx test
-gunx build
-gunx format
-gunx lint
-gunx audit
-gunx typos
-gunx schain
-gunx gates
-gunx dry
-gunx clean
-gunx sync
-gunx push
-gunx publish
-gunx release
-gunx deploy
-```
-
-But every language and framework normally invents its own ritual.
-
-`gunx` normalizes that.
-
-It reads the project spec, detects the stack, resolves tasks, builds a graph, chooses the correct package managers or tools, and runs the lifecycle through one command surface.
-
-## Ecosystem support
-
-`gunx` is designed to support 30+ languages, frameworks, runtimes, and project types.
-
-For example, not limited to:
-
-```txt
+```text
 Rust
-Go
-C
-C++
-.NET
-PHP
-Laravel
-Python
-Django
-Fiber
-Node.js
-Bun
-Express
-NestJS
+TypeScript / Node
+React / Next.js
+backend architecture
+web/mobile architecture
+databases
+cache
+infrastructure
+security
+performance
+commerce
+payments
+finance
+SaaS
+multi-tenancy
+catalogs
+business workflows
+RustX
+WebX
+MobileX
+InfraX
+```
+
+The goal is not to make AI autonomous.
+
+The goal is to give strong AI agents the right engineering context, constraints, patterns, and project knowledge at the moment they need it.
+
+Conceptually:
+
+```text
+saasx/skill → SkillX
+```
+
+---
+
+## WebX
+
+> One spec-driven web engine for every browser surface.
+
+**WebX** is built on:
+
+```text
 Next.js
 React
-Astro
-Vue
-Angular
-Nuxt
-Elixir
-Dart
-Flutter
-Java
-Bash
-Lua
-Docker
-Kubernetes
-monorepos
-microservices
-CLI tools
-backend systems
-frontend apps
+TypeScript
 ```
 
-It can work with each ecosystem’s native package managers and tools when they exist.
+plus carefully selected production-grade libraries for state, data, forms, motion, icons, accessibility, testing, and other justified needs.
 
-For example, not limited to:
+It is designed to power both:
 
-```txt
-cargo
-go
-make
-cmake
-xmake
-dotnet
-composer
-artisan
-pip
-uv
-poetry
-npm
-pnpm
-yarn
-bun
-mix
-pub
-flutter
-maven
-gradle
-shellcheck
-docker
-kubectl
-helm
+```text
+SEO websites
+application surfaces
+admin panels
 ```
 
-When an ecosystem does not provide a clean way to perform a lifecycle step, `gunx` can provide the missing layer itself.
+from one reusable engine.
 
-The developer gets one command surface.
+Project behavior lives in specs:
 
-The correct underlying tool is selected behind the scenes.
-
-## Unified execution
-
-`gunx` can run lifecycle commands through one unified execution layer, similar to `blaze`.
-
-The goal is not only to run commands.
-
-The goal is to understand the project graph, resolve dependencies, cache the execution model, choose the right tools, and execute the lifecycle consistently.
-
-## Unified CI/CD
-
-Because `gunx` gives every project the same lifecycle commands, CI/CD becomes boring in the best possible way.
-
-A `.github` workflow can stay almost the same across many stacks:
-
-```txt
-gunx build
-gunx test
-gunx gates
-gunx deploy
-# or
-gunx publish
+```text
+specs/
+├── super/
+├── admin/
+├── vendor/
+├── delivery/
+├── client/
+└── tenant/
 ```
 
-The CI file stays fixed.
+The reusable engine stays brand-neutral and business-neutral.
 
-The project behavior comes from `Gun.toml` or `gun.toml`.
+Conceptually:
 
-## The force
+```text
+saasx/web - specs/ = WebX
+```
 
-`gunx` is the hot path.
+WebX is not a dashboard template and not a low-code toy.
 
-It reduces thinking, typing, guessing, package-manager chaos, framework-specific rituals, and CI/CD drift.
+It is a programmable web foundation capable of producing deeply customized enterprise experiences while keeping architecture, behavior, and design coherent.
 
-```txt
-One spec file.
-One cache directory.
-One command layer.
-Many languages.
-Many frameworks.
-One project lifecycle.
+---
+
+## MobileX
+
+> The spec-driven mobile engine.
+
+**MobileX** applies the same architecture to mobile applications, primarily through React Native and a carefully selected production stack.
+
+Applications are described through specs while the engine remains reusable.
+
+The same foundation can support:
+
+```text
+one multi-role app
+```
+
+with role-aware experiences after login, or:
+
+```text
+separate role-specific builds
+```
+
+for client, tenant, vendor, delivery, or other product modes.
+
+Conceptually:
+
+```text
+saasx/mobile - specs/ = MobileX
+```
+
+One engine.
+
+Different products, roles, flows, themes, and capabilities.
+
+---
+
+# SaaSX → ToolX
+
+ToolX is not invented first and forced onto a product.
+
+The reusable engineering is discovered and proven inside **SaaSX**.
+
+```text
+saasx/
+├── api/
+├── web/
+├── mobile/
+├── infra/
+└── skill/
+```
+
+Expected extraction:
+
+```text
+saasx/api/core  → RustX
+saasx/web       → WebX      (remove specs/)
+saasx/mobile    → MobileX   (remove specs/)
+saasx/infra     → InfraX
+saasx/skill     → SkillX
+```
+
+The lifecycle:
+
+```text
+real SaaSX requirement
+        ↓
+build the clean solution
+        ↓
+identify the reusable primitive
+        ↓
+test + benchmark + production pressure
+        ↓
+stabilize the abstraction
+        ↓
+extract it into ToolX
+        ↓
+make SaaSX consume the extracted tool
+```
+
+Extraction is complete only when SaaSX itself consumes the extracted tool.
+
+The target is **packaging, not architectural surgery**.
+
+---
+
+## Why SaaSX
+
+SaaSX is the real enterprise product that pressure-tests ToolX.
+
+It is designed around:
+
+```text
+multi-tenant
+multi-role
+multi-product-type
+unified catalog
+```
+
+with surfaces such as:
+
+```text
+super panel
+admin panel
+vendor panel
+delivery panel
+client SEO site
+tenant SEO site
+mobile app
+```
+
+SaaSX must remain a strong product even if ToolX disappears.
+
+ToolX must remain useful even outside SaaSX.
+
+That separation is intentional.
+
+---
+
+# Core Engineering Laws
+
+## Independence
+
+No ToolX tool depends on another ToolX tool.
+
+```text
+RustX   ─┐
+WebX    ─┤
+MobileX ─┤── independent tools
+InfraX  ─┤
+SkillX  ─┘
+```
+
+Shared philosophy does not require shared runtime dependencies.
+
+## Generic Core, Product Specs
+
+Reusable engines stay generic.
+
+Product-specific concepts belong in:
+
+```text
+specs
+manifests
+configuration
+data
+knowledge packs
+```
+
+not inside reusable cores.
+
+For `saasx/api/core`:
+
+```text
+outside → core
+core    ↛ outside
+```
+
+Architecture tests, lints, and CI should enforce these rules.
+
+## Production First
+
+Production-grade is a **quality constraint**, not a scope requirement.
+
+Every implemented capability should optimize for:
+
+```text
+correctness
+security
+simplicity
+performance
+maintainability
+observability
+developer experience
+failure behavior
+```
+
+## Measure, Do Not Assume
+
+Performance claims require evidence.
+
+Use:
+
+```text
+benchmarks
+profiling
+memory measurements
+real workloads
+production behavior
+```
+
+before accepting complexity.
+
+## One Opinionated Stack
+
+ToolX does not aim to support every language, framework, ORM, UI system, or platform.
+
+It deliberately focuses on a strong vertical stack:
+
+```text
+Rust
+TypeScript / Node
+React / Next.js
+React Native
+selected databases/cache
+selected infrastructure patterns
+```
+
+Depth and coherence matter more than ecosystem breadth.
+
+---
+
+# Design Standard
+
+WebX and MobileX must produce interfaces that feel like serious enterprise products, not generated templates.
+
+The bar includes:
+
+```text
+strong hierarchy
+clean composition
+excellent typography
+eye comfort
+responsive behavior
+accessibility
+motion
+interaction quality
+brand coherence
+original 3D visual language
+```
+
+Light and dark themes are separate art directions, not simple inversions.
+
+Important product states — empty, error, success, onboarding, offers, coupons, rewards, confirmations — should receive deliberate visual treatment.
+
+UI work is complete only when it is:
+
+```text
+functionally correct
++ visually exceptional
++ brand-coherent
++ responsive
++ accessible
++ interaction-complete
++ visually verified
 ```
 
 ---
 
-# panelx
+# AI + ToolX
 
-> The admin panel compiler.
+ToolX is designed for an AI-assisted engineering era.
 
-`panelx` is not a dashboard template.
+AI can accelerate:
 
-It is a compiler for production-grade admin systems.
-
-It exists because admin panels are one of the most repeated wastes in software: tables, forms, filters, charts, actions, permissions, layouts, navigation, state, and workflows rebuilt again and again.
-
-## What it does
-
-`panelx` lets developers describe admin panels using real JavaScript spec files:
-
-```txt
-admin.js
-vendor.js
-referrer.js
-super.js
+```text
+implementation
+research
+refactoring
+testing
+benchmarking
+documentation
+review
 ```
 
-Each spec can describe many parts of the admin system, for example but not limited to:
+but architecture remains deliberate.
 
-```txt
-screens
-layouts
-click sounds
-themes
-animation
-navigation
-roles
-permissions
-API endpoints
-tables
-forms
-charts
-actions
-workflows
-validation
-visibility rules
-state logic
-business rules
-dynamic behavior
+The intended model:
+
+```text
+human engineering judgment
+        +
+ToolX
+        +
+SkillX
+        +
+powerful AI agents
+        ↓
+extreme engineering leverage
 ```
 
-## How it is used
+The goal is not more agents.
 
-A developer installs `panelx`, writes one or more `.js` spec files, then selects the active panel through an environment mode.
-
-```bash
-PANEL_MODE=admin
-PANEL_MODE=vendor
-PANEL_MODE=referrer
-PANEL_MODE=super
-```
-
-`panelx` reads the selected spec, understands the target role, permissions, APIs, screens, layouts, actions, and workflows, then builds the matching admin panel for that mode.
-
-```txt
-one codebase
-many admin panels
-different specs
-different roles
-different APIs
-different workflows
-same design system
-```
-
-## Why JavaScript specs
-
-JSON is not enough for serious admin systems.
-
-Admin panels need real logic:
-
-```txt
-conditions
-functions
-hooks
-actions
-validation
-events
-API behavior
-workflow control
-```
-
-JavaScript gives the spec real programming power.
-
-`panelx` keeps the output consistent, beautiful, dense, and production-grade.
-
-## Where wasmx fits
-
-`panelx` can use `wasmx` when the admin system needs stronger execution power:
-
-```txt
-complex validation
-large table processing
-workflow rules
-plugin execution
-secure business logic
-client-side data processing
-performance-critical UI modules
-```
-
-## The force
-
-`panelx` turns admin development from screen-by-screen labor into programmable generation.
-
-```txt
-Install the library.
-Write the spec.
-Select the mode.
-Compile the panel.
-Keep control.
-Move faster.
-```
+The goal is more correct work per unit of time.
 
 ---
 
-## How The Six Tools Work Together
+# Project Status
 
-```txt
-rustx   -> foundation
-wasmx   -> portable execution
-webx    -> backend/web systems
-infrax  -> infrastructure, deployment, observability, and CI/CD
-gunx    -> project lifecycle commands, gates, graphs, and package-manager control
-panelx  -> generated admin systems
+## Active ToolX
+
+```text
+RustX
+WebX
+MobileX
+InfraX
+SkillX
 ```
 
-Together they create one loop:
+These five tools define the current ToolX roadmap.
 
-```txt
-Design -> Build -> Run -> Check -> Test -> Deploy -> Observe -> Improve
+## Outside ToolX
+
+**AliasX** is a personal Linux/macOS workflow tool and remains outside ToolX.
+
+## Discontinued
+
+```text
+AgentX
+BashX
 ```
 
-And every loop should become faster than the last.
+Development is stopped.
+
+## Deferred
+
+```text
+WasmX
+PyX
+```
+
+They may return later as optional layers around RustX, but they are not part of the current architecture or roadmap.
 
 ---
 
-## The Power Model
+# End State
 
-The toolchain is designed to create leverage at every layer.
+The target outcome is:
 
-```txt
-rustx   makes the foundation stronger
-wasmx   makes execution portable and controlled
-webx    makes Rust backends faster to build
-infrax  makes infrastructure programmable and CI/CD stable
-gunx    makes daily project work consistent across 30+ ecosystems
-panelx  makes admin systems generated instead of manually rebuilt
+### 1. SaaSX
+
+A real enterprise SaaS capable of competing with serious production systems.
+
+### 2. ToolX
+
+Five production-grade tools that dramatically reduce the cost of building the next SaaSX-class product.
+
+### 3. SkillX
+
+A reusable engineering knowledge system that lets powerful AI agents work inside a disciplined, opinionated architecture instead of rediscovering the same decisions repeatedly.
+
+The flywheel:
+
+```text
+SaaSX
+  ↓
+production evidence
+  ↓
+ToolX + SkillX
+  ↓
+AI-assisted enterprise engineering
+  ↓
+next SaaSX-class system
+  ↓
+dramatically faster
 ```
 
-The result:
-
-```txt
-one developer moves like a team
-a team moves like a company
-repeated work becomes tooling
-tooling becomes infrastructure
-infrastructure becomes advantage
-```
+**SaaSX should be the last enterprise SaaS we build the hard way.**
 
 ---
 
-## Unified Workflow
-
-The dream is not six tools with six different mental models.
-
-The dream is one workflow.
-
-`gunx`, `infrax`, and `panelx` expose one stable command surface for project lifecycle, infrastructure, and admin generation.
-
-Under the hood, the toolchain can talk to package managers, language tools, Docker, Kubernetes, OpenTofu, Terraform, Ansible, observability systems, CI/CD providers, and cloud CLIs.
-
-From the developer side, the workflow stays fixed.
-
-```txt
-one project spec
-one infrastructure spec
-one CI/CD shape
-one command vocabulary
-```
+# Build the product. Extract the engineering. Compound the advantage.
 
 ---
 
-## After The Core Six
+# License
 
-After the core six tools are stable, the next direction is to expose the power of `rustx` and `wasmx` to other language ecosystems.
+<code>toolx</code> is dual-licensed under either
+[MIT](https://github.com/comstrx/toolx/blob/main/LICENSE-MIT) or
+[Apache-2.0](https://github.com/comstrx/toolx/blob/main/LICENSE-APACHE), at your option.
 
-The goal is to let developers use Rust-powered performance and lifecycle primitives from the languages they already work with.
-
-```txt
-pyx    -> Python bindings and runtime layer over rustx + wasmx + PyO3
-nodex  -> Node.js/Bun bindings and runtime layer over rustx + wasmx
-phpx   -> PHP bindings and runtime layer over rustx + wasmx
-```
-
-`pyx` is the first planned expansion.
-
-It will act as a Rust-powered Python layer built over:
-
-```txt
-rustx
-wasmx
-PyO3
-```
-
-The goal is ambitious: provide Python with an extremely fast standard-library-style foundation, runtime utilities, validation, parsing, data handling, automation primitives, and potentially one of the fastest Python-accessible web/server layers.
-
-The idea is not to replace Python.
-
-The idea is to give Python developers access to Rust-grade execution power without leaving the Python ecosystem.
-
-Later, the same model can expand into:
-
-```txt
-Node.js / Bun -> nodex
-PHP           -> phpx
-```
-
-The long-term direction is clear:
-
-```txt
-Build the Rust foundation once.
-Expose it through WebAssembly and native bindings.
-Let every ecosystem use the same execution power.
-```
-
----
-
-## Status
-
-This toolchain is under active design and development.
-
-The direction is fixed:
-
-```txt
-One foundation.
-Six core tools.
-One engineering toolchain.
-Future language expansions.
-```
-
-The goal is not to publish disconnected projects.
-
-The goal is to use the strongest AI models available today as engineering accelerators to help design and build six highly complex tools, then turn those tools into a production-grade engineering system for building, controlling, deploying, and operating serious software at extreme speed.
-
-AI is used to accelerate tool creation.
-
-The tools are used to control production.
-
-Engineering judgment stays in charge.
-
-The goal is to build a core execution layer first, then expose that power to Python, Node.js, Bun, PHP, browsers, and other ecosystems through WebAssembly and native bindings.
-
----
-
-# Build tools. Control systems. Ship serious software.
+Unless you explicitly state otherwise, any contribution intentionally submitted
+for inclusion in this work by you, as defined in the Apache-2.0 license, shall be
+dual-licensed as above, without any additional terms or conditions.
